@@ -1,5 +1,5 @@
 import Logo from '../../Assets/logo.png'
-import iconeLua from '../../Assets/moon.png'
+import iconeLua from '../../assets/moon.png'
 import iconeSol from '../../assets/sun.png'
 
 import './style.css'
