@@ -1,4 +1,4 @@
-import Logo from '../../Assets/logo.png'
+import Logo from '../../assets/logo.png'
 import iconeLua from '../../assets/moon.png'
 import iconeSol from '../../assets/sun.png'
 

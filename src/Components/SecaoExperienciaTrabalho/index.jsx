@@ -13,7 +13,7 @@ export default function SecaoExperienciaTrabalho(props){
             </div>
 
             <div className="container-cards limitar-secao">
-                <Card
+                <Card               
                  data="JUNHO 2012 - 2016"
                  titulo="Web Designer"
                  empresa="Pied Piper StartUp."
