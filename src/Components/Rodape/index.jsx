@@ -17,12 +17,12 @@ export default function Rodape(props){
             ferramentas e tecnologias personalizadas.
         </p>
         <div className="iconesRodape">
-            <img src={iconeFacebook} alt="facebook"/>
-            <img src={iconeTwitter} alt="twitter"/>
-            <img src={iconeLinkedin} alt="linkedin"/>
-            <img src={iconeDribble} alt="dribble"/>
-            <img src={iconeBehance} alt="behance"/>
-            <img src={iconeGooglePlus} alt="google plus"/>
+            <img src={iconeFacebook} alt="facebook" title="Facebook"/>
+            <img src={iconeTwitter} alt="twitter" title="Twitter"/>
+            <img src={iconeLinkedin} alt="linkedin" title="Linkedin"/>
+            <img src={iconeDribble} alt="dribble" title="Dribble"/>
+            <img src={iconeBehance} alt="behance" title="Behance"/>
+            <img src={iconeGooglePlus} alt="google plus" title="Google Plus" />
         </div>
         <div>
             <p className="copyright">Copyright 2022 &copy; <span>José Lima</span></p>

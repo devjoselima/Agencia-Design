@@ -60,9 +60,12 @@
   }
 
   .texto-secaoBanner-claro p,
-  .texto-secaoBanner-claro h2,
+  .texto-secaoBanner-claro h2{
+    color: #0fa5e0;
+  }
+
   .texto-secaoBanner-claro span{
-    color: #022144;
+    color: #1187b6cb;
   }
 
   .texto-secaoBanner-escuro p,
