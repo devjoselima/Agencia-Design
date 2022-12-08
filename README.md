@@ -1,7 +1,7 @@
 # ✔️Agência de Design
 
 ## 📑 Descrição:
-Projeto de uma agência de design feito com a biblioteca react com fins de masterizar minhas habilidades com as tecnologias presentes.
+Projeto de uma agência de design feito com a biblioteca react, feita com fins de masterizar minhas habilidades com as tecnologias presentes.
 
 ## 👨‍💻Tecnologias usadas:
 
