@@ -1,7 +1,10 @@
 # ✔️Agência de Design
 
+<img src="/src/Assets/print-projeto.png">
+
 ## 📑 Descrição:
-Projeto de uma agência de design feito com a biblioteca react, feita com fins de masterizar minhas habilidades com as tecnologias presentes.
+
+Projeto feito durante os estudos de react do curso da devmedia, feito com fins de masterizar minhas habilidades e aprender mais sobre a utilização de props e componentes.
 
 ## 👨‍💻Tecnologias usadas:
 
