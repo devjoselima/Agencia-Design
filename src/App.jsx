@@ -7,7 +7,7 @@ import Rodape from './Components/Rodape/'
 import './App.css';
 
 export default function App() {
-  const [TemaEscuro, setTemaEscuro] = useState(false)
+  const [TemaEscuro, setTemaEscuro] = useState(true)
 
   const alterarTema = () => {
     setTemaEscuro(!TemaEscuro)

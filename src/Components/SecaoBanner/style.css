@@ -1,89 +1,86 @@
 #secaoBanner {
-    height: 95vh;
-    padding-top: 90px;
-    display: flex;
-    position: relative;
+  height: 100vh;
+  padding-top: 90px;
+  display: flex;
+  position: relative;
+  width: 100%;
+}
+
+#imagemDeFundo {
+  width: 50%;
+  background-image: url('../../assets/banner.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+}
+
+.fundo-modo-claro {
+    background-color: #fff;
+}
+
+.fundo-modo-escuro{
+  background-color: #252525;
+}
+
+.texto-secaoBanner-claro{
+  background-color: #fafbfc;
+}
+
+.texto-secaoBanner-escuro{
+  background-color: #252525;
+}
+
+.texto-secaoBanner-claro,
+.texto-secaoBanner-escuro {
+  width: 50%;
+  padding: 0px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.texto-secaoBanner-claro p,
+.texto-secaoBanner-escuro p{
+  font-size: 12px;
+  letter-spacing: 5px;
+  font-weight: 500;
+}
+
+.texto-secaoBanner-claro h2,
+.texto-secaoBanner-escuro h2 {
+  font-size: 50px;
+  font-weight: 500; 
+}
+
+.texto-secaoBanner-claro span,
+.texto-secaoBanner-escuro span {
+  font-size: 50px;
+  font-weight: 900;
+}
+
+.texto-secaoBanner-claro p,
+.texto-secaoBanner-claro h2,
+{
+  color: #022144;
+}
+
+.texto-secaoBanner-escuro p,
+.texto-secaoBanner-escuro h2{
+  color: #CCCCCC;
+}
+
+.texto-secaoBanner-escuro span {
+  color: #fcc520;
+}
+
+
+@media screen and (max-width: 768px) {
+  #imagemDeFundo {
+    width: 0;
+  }
+
+  .texto-secaoBanner {
     width: 100%;
   }
-  
-  #imagemDeFundo {
-    width: 50%;
-    background-image: url('../../assets/banner.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    object-fit: cover;
-  }
-  
-  .fundo-modo-claro {
-      background-color: #fff;
-  }
-
-  .fundo-modo-escuro{
-    background-color: #252525;
-  }
-
-  .texto-secaoBanner-claro{
-    background-color: #fafbfc;
-  }
-
-  .texto-secaoBanner-escuro{
-    background-color: #252525;
-  }
-  
-  .texto-secaoBanner-claro,
-  .texto-secaoBanner-escuro {
-    width: 50%;
-    padding: 0px 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-  
-  .texto-secaoBanner-claro p,
-  .texto-secaoBanner-escuro p{
-    font-size: 12px;
-    letter-spacing: 5px;
-    font-weight: 500;
-  }
-  
-  .texto-secaoBanner-claro h2,
-  .texto-secaoBanner-escuro h2 {
-    font-size: 50px;
-    font-weight: 500; 
-  }
-  
-  .texto-secaoBanner-claro span,
-  .texto-secaoBanner-escuro span {
-    font-size: 50px;
-    font-weight: 900;
-  }
-
-  .texto-secaoBanner-claro p,
-  .texto-secaoBanner-claro h2{
-    color: #0fa5e0;
-  }
-
-  .texto-secaoBanner-claro span{
-    color: #1187b6cb;
-  }
-
-  .texto-secaoBanner-escuro p,
-  .texto-secaoBanner-escuro h2{
-    color: #CCCCCC
-  }
-
-  .texto-secaoBanner-escuro span {
-    color: #fcc520;
-  }
-
-  
-  @media screen and (max-width: 768px) {
-    #imagemDeFundo {
-      width: 0;
-    }
-  
-    .texto-secaoBanner {
-      width: 100%;
-    }
-  }
+}
