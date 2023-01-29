@@ -2,7 +2,7 @@
 
 <img src="/src/Assets/print-projeto.png">
 
-## 📑 Descrição:
+## ❔ Descrição:
 
 Projeto feito durante os estudos de react do curso da devmedia, feito com fins de masterizar minhas habilidades e aprender mais sobre a utilização de props e componentes.
 
