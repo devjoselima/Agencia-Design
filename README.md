@@ -1,5 +1,3 @@
-# ✔️Agência de Design
-
 <img src="/src/Assets/print-projeto.png">
 
 ## ❔ Descrição:
